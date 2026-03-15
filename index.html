@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COMPASS</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f9ff;
+color:#222;
+scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 60px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+position:sticky;
+top:0;
+}
+
+.logo{
+font-weight:700;
+font-size:22px;
+color:#2b6cb0;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+button{
+background:#ff8c00;
+border:none;
+padding:10px 18px;
+border-radius:20px;
+color:white;
+font-weight:600;
+cursor:pointer;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:42px;
+max-width:800px;
+margin:auto;
+}
+
+/* CARDS */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card-content{
+padding:22px;
+}
+
+.card h3{
+margin-top:0;
+color:#2b6cb0;
+}
+
+/* INFO */
+
+.info{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+.info h2{
+color:#2b6cb0;
+}
+
+.location{
+background:#eaf3ff;
+padding:20px;
+border-radius:10px;
+margin-top:20px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:40px;
+background:#dbeafe;
+margin-top:40px;
+}
+
+footer a{
+color:#2b6cb0;
+text-decoration:none;
+font-weight:600;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">COMPASS</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#program">Program</a></li>
+<li><a href="#meetings">Meetings</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<button>Join Program</button>
+</nav>
+
+<section class="hero">
+<h1>A mentorship program helping high school students navigate school, college, and future careers</h1>
+</section>
+
+<section id="program" class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+<div class="card-content">
+<h3>School Navigation</h3>
+<p>Understand the U.S. high school system and how to choose clubs, activities, and AP classes.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b">
+<div class="card-content">
+<h3>College Preparation</h3>
+<p>Guidance on SAT preparation, college applications, and planning your academic future.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644">
+<div class="card-content">
+<h3>Community</h3>
+<p>Meet like-minded students, share experiences, and build a supportive peer network.</p>
+</div>
+</div>
+
+</section>
+
+<section id="about" class="info">
+
+<h2>Our Story</h2>
+<p>
+COMPASS was created to help high school students, especially recent immigrants,
+navigate the U.S. school system and prepare for college. The program provides guidance,
+support, and a community where students can ask questions and explore their future.
+</p>
+
+<h2>Our Mission</h2>
+<p>
+To help students confidently navigate high school, prepare for college,
+and discover their academic and career paths.
+</p>
+
+<div id="meetings" class="location">
+<h2>Meeting Location</h2>
+<p>
+📍 Brooklyn Public Library – Kings Highway Branch<br>
+📅 Monthly on Saturday
+</p>
+</div>
+
+</section>
+
+<footer id="contact">
+
+<h2>Contact</h2>
+
+<p>For more information about the COMPASS mentorship program:</p>
+
+<p>
+📧 Email: <a href="mailto:asalnazar2@gmail.com">asalnazar2@gmail.com</a><br>
+📱 Phone: <a href="tel:16466261731">646-626-1731</a>
+</p>
+
+<p>Languages: English • Russian • Uzbek</p>
+
+</footer>
+
+</body>
+</html>
